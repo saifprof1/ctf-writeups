@@ -9,7 +9,8 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 
 ## Categories
 
-- Digital Forensics
+-  [Digital Forensics](#-digital-forensics)
+
 - OSINT
 - Cryptography
 - Network Analysis
@@ -28,7 +29,9 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - Searchsploit
 - Linux
 - Python
-## 📂 Digital Forensics
+
+  ## 📂 Writeups
+###  🔍 Digital Forensics
 
 | Challenge | Status |
 |-----------|--------|
