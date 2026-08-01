@@ -50,6 +50,10 @@ echo 'need to stash tonight key somewhere the interns wont cat it'
 This message suggested that the user had intentionally hidden the secret somewhere on the system rather than storing it directly in a readable file.
 
 Based on this clue, I concluded that the Bash history alone would not be enough, so I continued searching for other artifacts that might reveal how the secret was stored.
+#### Bash History
+
+![Bash History](../assets/history-lesson-bash-history.png)
+
 ### Step 3: Inspecting the Python History
 
 After reviewing the Bash history, I moved on to the `.python_history` file to see whether the user had previously executed any useful scripts.
@@ -79,6 +83,9 @@ From the code, I learned that:
 ```
 
 At this point, I knew the next step was to inspect the `.session.bak` file and reverse the encoding process.
+#### Python History
+
+![Python History](../assets/history-lesson-python-history.png)
 ## Solution
 
 ### Step 4: Recovering the Hidden Data
@@ -94,6 +101,9 @@ H4sIAEDUaWoC/wtwDvYMqM4wLC4................BQArHXo2IwAAAA=
 The Python history had already revealed the encoding process. To recover the original data, I reversed the same process using **CyberChef**.
 
 After decoding the Base64 string and decompressing the Gzip data, the original flag was successfully recovered.
+#### CyberChef Recipe
+
+![CyberChef](../assets/history-lesson-cyberchef.png)
 ## Lessons Learned
 
 This challenge demonstrates that sensitive information does not need to be stored in plain text to become recoverable.
@@ -105,3 +115,4 @@ It also highlights that Base64 encoding and Gzip compression are not security me
 
 - Visual Studio Code
 - CyberChef
+
