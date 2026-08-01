@@ -50,3 +50,32 @@ echo 'need to stash tonight key somewhere the interns wont cat it'
 This message suggested that the user had intentionally hidden the secret somewhere on the system rather than storing it directly in a readable file.
 
 Based on this clue, I concluded that the Bash history alone would not be enough, so I continued searching for other artifacts that might reveal how the secret was stored.
+### Step 3: Inspecting the Python History
+
+After reviewing the Bash history, I moved on to the `.python_history` file to see whether the user had previously executed any useful scripts.
+
+While examining the file, I found the following Python code:
+
+```python
+import gzip, base64
+key = open('/root/ctf/flag.txt').read().strip()
+blob = base64.b64encode(gzip.compress(key.encode())).decode()
+open('/home/devops/.cache/app/.session.bak','w').write(blob)
+len(blob)
+exit()
+```
+
+This snippet revealed the entire workflow used to hide the secret.
+
+From the code, I learned that:
+
+- The flag was read from `flag.txt`.
+- It was compressed using **gzip**.
+- The compressed data was encoded using **Base64**.
+- Finally, the encoded data was written to:
+
+```
+/home/devops/.cache/app/.session.bak
+```
+
+At this point, I knew the next step was to inspect the `.session.bak` file and reverse the encoding process.
