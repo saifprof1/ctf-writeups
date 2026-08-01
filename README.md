@@ -28,6 +28,11 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - Searchsploit
 - Linux
 - Python
+## 📂 Digital Forensics
+
+| Challenge | Status |
+|-----------|--------|
+| [History Lesson](digital-forensics/history-lesson.md) | ✅ Completed |
 
 
 ## Disclaimer
