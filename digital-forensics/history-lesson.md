@@ -41,6 +41,8 @@ Since command history often provides valuable forensic evidence, I decided to be
 
 I opened the `.bash_history` file using Visual Studio Code and reviewed the recorded commands.
 
+![Bash History](../assets/history-lesson-bash-history.png)
+
 Among the normal administrative commands, one particular entry immediately caught my attention:
 
 ```text
@@ -50,9 +52,6 @@ echo 'need to stash tonight key somewhere the interns wont cat it'
 This message suggested that the user had intentionally hidden the secret somewhere on the system rather than storing it directly in a readable file.
 
 Based on this clue, I concluded that the Bash history alone would not be enough, so I continued searching for other artifacts that might reveal how the secret was stored.
-#### Bash History
-
-![Bash History](../assets/history-lesson-bash-history.png)
 
 ### Step 3: Inspecting the Python History
 
@@ -60,14 +59,7 @@ After reviewing the Bash history, I moved on to the `.python_history` file to se
 
 While examining the file, I found the following Python code:
 
-```python
-import gzip, base64
-key = open('/root/ctf/flag.txt').read().strip()
-blob = base64.b64encode(gzip.compress(key.encode())).decode()
-open('/home/devops/.cache/app/.session.bak','w').write(blob)
-len(blob)
-exit()
-```
+![Python History](../assets/history-lesson-python-history.png)
 
 This snippet revealed the entire workflow used to hide the secret.
 
@@ -83,9 +75,7 @@ From the code, I learned that:
 ```
 
 At this point, I knew the next step was to inspect the `.session.bak` file and reverse the encoding process.
-#### Python History
 
-![Python History](../assets/history-lesson-python-history.png)
 ## Solution
 
 ### Step 4: Recovering the Hidden Data
@@ -100,10 +90,10 @@ H4sIAEDUaWoC/wtwDvYMqM4wLC4................BQArHXo2IwAAAA=
 
 The Python history had already revealed the encoding process. To recover the original data, I reversed the same process using **CyberChef**.
 
-After decoding the Base64 string and decompressing the Gzip data, the original flag was successfully recovered.
-#### CyberChef Recipe
-
 ![CyberChef](../assets/history-lesson-cyberchef.png)
+
+After decoding the Base64 string and decompressing the Gzip data, the original flag was successfully recovered.
+
 ## Lessons Learned
 
 This challenge demonstrates that sensitive information does not need to be stored in plain text to become recoverable.
