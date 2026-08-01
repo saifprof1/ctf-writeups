@@ -79,3 +79,29 @@ From the code, I learned that:
 ```
 
 At this point, I knew the next step was to inspect the `.session.bak` file and reverse the encoding process.
+## Solution
+
+### Step 4: Recovering the Hidden Data
+
+I navigated to the `.cache/app/` directory and opened the `.session.bak` file using Visual Studio Code.
+
+The file contained a single Base64-encoded string.
+
+```text
+H4sIAEDUaWoC/wtwDvYMqM4wLC4................BQArHXo2IwAAAA=
+```
+
+The Python history had already revealed the encoding process. To recover the original data, I reversed the same process using **CyberChef**.
+
+After decoding the Base64 string and decompressing the Gzip data, the original flag was successfully recovered.
+## Lessons Learned
+
+This challenge demonstrates that sensitive information does not need to be stored in plain text to become recoverable.
+
+During a forensic investigation, command history, interpreter history, cache directories, and temporary files can reveal valuable evidence about a user's activity.
+
+It also highlights that Base64 encoding and Gzip compression are not security mechanisms. Anyone who discovers the encoded data and understands the process can easily recover the original information.
+## Tools Used
+
+- Visual Studio Code
+- CyberChef
