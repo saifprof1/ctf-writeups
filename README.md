@@ -7,15 +7,14 @@ This repository contains detailed writeups of Capture The Flag (CTF) challenges 
 The goal of these writeups is educational. Every writeup explains the thought process, tools used, and methodology rather than simply presenting the final answer.
 
 
-## Categories
+## 📚 Categories
 
--  [Digital Forensics](#-digital-forensics)
-
-- OSINT
-- Cryptography
-- Network Analysis
-- Reconnaissance
-- Miscellaneous
+- 🔍 [Digital Forensics](#-digital-forensics)
+- 🌍 OSINT
+- 🔐 Cryptography
+- 🌐 Network Analysis
+- 📡 [Reconnaissance](#-reconnaissance)
+- 📦 Miscellaneous
 
 
 ## Tools Used
@@ -30,13 +29,12 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - Linux
 - Python
 
-  ## 📂 Writeups
-###  🔍 Digital Forensics
+## 📂 Writeups
+### 🔍 Digital Forensics
+- 📄 [History Lesson](digital-forensics/history-lesson.md)
 
-| Challenge | Status |
-|-----------|--------|
-| [History Lesson](digital-forensics/history-lesson.md) | ✅ Completed |
-
+### 📡 Reconnaissance
+- 📄 [Legacy and Forgotten](reconnaissance/legacy-and-forgotten.md)
 
 ## Disclaimer
 
