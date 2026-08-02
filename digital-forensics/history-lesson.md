@@ -41,7 +41,7 @@ Since command history often provides valuable forensic evidence, I decided to be
 
 I opened the `.bash_history` file using Visual Studio Code and reviewed the recorded commands.
 
-![Bash History](../assets/history-lesson-bash-history.png)
+![Bash History](../assets/history-lesson/history-lesson-bash-history.png)
 
 Among the normal administrative commands, one particular entry immediately caught my attention:
 
@@ -59,7 +59,7 @@ After reviewing the Bash history, I moved on to the `.python_history` file to se
 
 While examining the file, I found the following Python code:
 
-![Python History](../assets/history-lesson-python-history.png)
+![Python History](../assets/history-lesson/history-lesson-python-history.png)
 
 This snippet revealed the entire workflow used to hide the secret.
 
@@ -90,7 +90,7 @@ H4sIAEDUaWoC/wtwDvYMqM4wLC4................BQArHXo2IwAAAA=
 
 The Python history had already revealed the encoding process. To recover the original data, I reversed the same process using **CyberChef**.
 
-![CyberChef](../assets/history-lesson-cyberchef.png)
+![CyberChef](../assets/history-lesson/history-lesson-cyberchef.png)
 
 After decoding the Base64 string and decompressing the Gzip data, the original flag was successfully recovered.
 
