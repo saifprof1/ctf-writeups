@@ -10,6 +10,10 @@ This challenge provided an Nmap service scan of a legacy server. The objective w
 
 I first read the challenge description to understand the objective. After that, I examined the provided Nmap scan report.
 
+### Nmap Scan
+
+![Nmap Scan](../assets/legacy-and-forgotten/nmap-scan.png)
+
 Among the listed services, the following entry immediately stood out:
 
 ```text
@@ -20,9 +24,9 @@ Since the challenge specifically mentioned the old FTP service, I focused my inv
 
 My first step was to search Google using the keyword:
 
-```text
-vsftpd 2.3.4 exploit
-```
+### Google Search
+
+![Google Search](../assets/legacy-and-forgotten/google-search.png)
 
 The search results pointed to well-known security resources discussing a backdoor vulnerability in this version.
 
