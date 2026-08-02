@@ -1,6 +1,14 @@
 # Legacy and Forgotten
 
-**Category:** Reconnaissance
+## Table of contents
+
+- [Challenge Description](#challenge-description)
+- [Investigation](#investigation)
+- [Solution](#solution)
+- [Lessons Learned](#lessons-learned)
+- [Tools Used](#tools-used)
+
+---
 
 ## Challenge Description
 
@@ -30,7 +38,7 @@ My first step was to search Google using the keyword:
 
 The search results pointed to well-known security resources discussing a backdoor vulnerability in this version.
 
-## Identifying the Vulnerability
+### Identifying the Vulnerability
 
 After reviewing several search results, I found that multiple trusted security resources referenced the same vulnerability for **vsftpd 2.3.4**. Cross-checking the information confirmed that the affected version was associated with **CVE-2011-2523**.
 
