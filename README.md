@@ -11,7 +11,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 
 - 🔍 [Digital Forensics](#-digital-forensics)
 - 🌍 OSINT
-- 🔐 Cryptography
+- 🔐 [Cryptography](#-cryptography)
 - 🌐 [Network Analysis](#-network-analysis)
 - 📡 [Reconnaissance](#-reconnaissance)
 - 📦 Miscellaneous
@@ -32,6 +32,9 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 ## 📂 Writeups
 ### 🔍 Digital Forensics
 - 📄 [History Lesson](digital-forensics/history-lesson.md)
+
+### 🔐 Cryptography
+- 📄 [Textbook Leak](cryptography/textbook-leak.md)
 
 ### 🌐 Network Analysis
 - 📄 [Plaintext Catch](network-analysis/plaintext-catch.md)
