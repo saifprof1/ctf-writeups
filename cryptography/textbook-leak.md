@@ -20,6 +20,7 @@ This challenge provided the RSA public parameters (`n` and `e`) along with a lis
 
 I first read the challenge description and then examined the provided `intercepted_rsa.txt` file.
 
+![RSA Parameters](../assets/textbook-leak/rsa-parameters.png)
 
 While reading the file, I noticed the following information:
 
@@ -32,6 +33,8 @@ The challenge description also mentioned that the data was encrypted **one byte 
 The next step was to determine whether the RSA modulus could be factored. Using publicly available cryptographic resources and Python, I factored the modulus into its two prime numbers. After obtaining the prime factors, I calculated the private exponent (`d`) and reconstructed the private key.
 
 Finally, I decrypted each ciphertext block individually and converted the resulting byte values back into readable text.
+
+![Python Script](../assets/textbook-leak/python-script.png)
 
 ## Solution
 
