@@ -1,5 +1,15 @@
 # Textbook Leak
 
+## Table of contents
+
+- [Challenge Description](#challenge-description)
+- [Investigation](#investigation)
+- [Solution](#solution)
+- [Lessons Learned](#lessons-learned)
+- [Tools Used](#tools-used)
+
+---
+
 **Category:** Cryptography
 
 ## Challenge Description
@@ -9,6 +19,7 @@ This challenge provided the RSA public parameters (`n` and `e`) along with a lis
 ## Investigation
 
 I first read the challenge description and then examined the provided `intercepted_rsa.txt` file.
+
 
 While reading the file, I noticed the following information:
 
