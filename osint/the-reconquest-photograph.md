@@ -16,7 +16,11 @@ The note provided several important hints:
 - The surrender happened on a Catholic saint's feast day in early summer.
 - A former mosque on the hill was reconsecrated shortly afterward.
 
+![Case Photo](../assets/the-reconquest-photograph/case_photo.png)
+
 Since the photograph was the primary clue, I uploaded it to **Bing Visual Search** to identify the location.
+
+![Bing Visual Search](../assets/the-reconquest-photograph/bing-visual-search.png)
 
 The visual search results suggested that the image was taken in **Córdoba, Spain**. I then compared the landmarks in the photograph with publicly available images. The skyline, the **Roman Bridge**, the **Guadalquivir River**, and the **Mosque–Cathedral of Córdoba (Mezquita-Catedral)** all matched the location.
 
