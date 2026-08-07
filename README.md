@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/ctf_Banner_Image.png" alt="CTF Writeups Banner" width="100%">
+</p>
+
 # CTF Writeups
 
 Welcome to my CTF Writeups repository.
