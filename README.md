@@ -6,6 +6,12 @@ This repository contains detailed writeups of Capture The Flag (CTF) challenges 
 
 The goal of these writeups is educational. Every writeup explains the thought process, tools used, and methodology rather than simply presenting the final answer.
 
+## 📑 Table of Contents
+
+- [Categories](#-categories)
+- [Tools Used](#-tools-used)
+- [Writeups](#-writeups)
+- [Disclaimer](#-disclaimer)
 
 ## 📚 Categories
 
@@ -14,10 +20,8 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - 🔐 [Cryptography](#-cryptography)
 - 🌐 [Network Analysis](#-network-analysis)
 - 📡 [Reconnaissance](#-reconnaissance)
-- 📦 Miscellaneous
 
-
-## Tools Used
+## 🛠 Tools Used
 
 - Wireshark
 - CyberChef
@@ -46,6 +50,6 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 ### 📡 Reconnaissance
 - 📄 [Legacy and Forgotten](reconnaissance/legacy-and-forgotten.md)
 
-## Disclaimer
+## 📜 Disclaimer
 
 This repository contains CTF writeups created as part of my learning journey. All content is shared for educational purposes only.
