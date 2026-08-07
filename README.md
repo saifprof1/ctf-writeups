@@ -10,7 +10,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 ## 📚 Categories
 
 - 🔍 [Digital Forensics](#-digital-forensics)
-- 🌍 OSINT
+- 🌍 [OSINT](#-osint)
 - 🔐 [Cryptography](#-cryptography)
 - 🌐 [Network Analysis](#-network-analysis)
 - 📡 [Reconnaissance](#-reconnaissance)
@@ -28,10 +28,14 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - Searchsploit
 - Linux
 - Python
+- Visual Studio Code
 
 ## 📂 Writeups
 ### 🔍 Digital Forensics
 - 📄 [History Lesson](digital-forensics/history-lesson.md)
+
+### 🌍 OSINT
+- 📄 [The Reconquest Photograph](osint/the-reconquest-photograph.md)
 
 ### 🔐 Cryptography
 - 📄 [Textbook Leak](cryptography/textbook-leak.md)
