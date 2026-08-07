@@ -1,5 +1,14 @@
 # Stringed Along
 
+## Table of contents
+
+- [Challenge Description](#challenge-description)
+- [Investigation](#investigation)
+- [Lessons Learned](#lessons-learned)
+- [Tools Used](#tools-used)
+
+---
+
 **Category:** Miscellaneous
 
 ## Challenge Description
@@ -16,23 +25,17 @@ immediately suggested using the `strings` utility.
 
 To verify the file type, I used the `file` command.
 
-```bash
-file service
-```
+![File Command](../assets/stringed-along/file-command.png)
 
 The output confirmed that the file was an ELF executable.
 
 Next, I extracted all printable strings from the binary.
 
-```bash
-strings service
-```
+![Strings Output](../assets/stringed-along/strings-output.png)
 
 Since the output contained many strings, I searched specifically for the expected flag format.
 
-```bash
-strings service | grep PCSIP
-```
+![Flag Search](../assets/stringed-along/grep-output.png)
 
 The flag appeared among the printable strings, so no reverse engineering or binary analysis was required.
 
