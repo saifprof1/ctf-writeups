@@ -24,6 +24,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 - 🔐 [Cryptography](#-cryptography)
 - 🌐 [Network Analysis](#-network-analysis)
 - 📡 [Reconnaissance](#-reconnaissance)
+- 📦 [Miscellaneous](#-miscellaneous)
 
 ## 🛠 Tools Used
 
@@ -53,6 +54,9 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 
 ### 📡 Reconnaissance
 - 📄 [Legacy and Forgotten](reconnaissance/legacy-and-forgotten.md)
+
+### 📦 Miscellaneous
+- 📄 [Stringed Along](miscellaneous/stringed-along.md)
 
 ## 📜 Disclaimer
 
