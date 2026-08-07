@@ -1,5 +1,15 @@
 # The Reconquest Photograph
 
+## Table of contents
+
+- [Challenge Description](#challenge-description)
+- [Investigation](#investigation)
+- [Solution](#solution)
+- [Lessons Learned](#lessons-learned)
+- [Tools Used](#tools-used)
+
+---
+
 **Category:** OSINT
 
 ## Challenge Description
