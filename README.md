@@ -45,6 +45,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 
 ### 🌍 OSINT
 - 📄 [The Reconquest Photograph](osint/the-reconquest-photograph.md)
+- 📄 [City of the Hadith](osint/city-of-the-hadith.md)
 
 ### 🔐 Cryptography
 - 📄 [Textbook Leak](cryptography/textbook-leak.md)
