@@ -1,10 +1,21 @@
 # City of the Hadith
 
+## Table of contents
+
+- [Challenge Description](#challenge-description)
+- [Investigation](#investigation)
+- [Tools Used](#tools-used)
+- [Lessons Learned](#lessons-learned)
+
+---
+
 **Category:** OSINT
 
 ## Challenge Description
 
 The challenge provided an interior photograph of a historic religious building along with a handwritten note containing several historical clues.
+
+![case_photo](../assets/city-of-the-hadith/case_photo.png)
 
 The objective was to identify the building and city shown in the photograph and then determine the exact historical date associated with the event described in the note.
 
@@ -24,6 +35,8 @@ The note also contained a historical clue about the conquest of Constantinople a
 ### 2. Visual Search
 
 Since the photograph was the main visual clue, I used **Bing Visual Search** to search for visually similar images.
+
+![Bing Visual Search](../assets/city-of-the-hadith/bing-visual-search.png)
 
 The initial results indicated that the building was a **mosque**.
 
