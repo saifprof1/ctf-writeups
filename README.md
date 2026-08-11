@@ -42,7 +42,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 ## 📂 Writeups
 ### 🔍 Digital Forensics
 - 📄 [History Lesson](digital-forensics/history-lesson.md)
-- 📄 [First Login](digital-forecnsics/first-login.md)
+- 📄 [First Login](digital-forensics/first-login.md)
 
 ### 🌍 OSINT
 - 📄 [The Reconquest Photograph](osint/the-reconquest-photograph.md)
