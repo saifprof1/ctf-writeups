@@ -34,7 +34,8 @@ Because the output was quite large, I initially tried several filtering and sear
 
 After inspecting the beginning of the log, I found that each event contained information such as:
 
-`Event ID``Date`
+`Event ID`
+`Date`
 `Logon Type`
 `New Logon Account`
 `Workstation Name`
