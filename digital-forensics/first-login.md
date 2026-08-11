@@ -66,6 +66,7 @@ So instead of manually checking all 373 events, I counted how many times each ac
 
 The result included:
 
+![Account frequency](../assets/first-login/account-count.png)
 
 One account immediately stood out:
 
@@ -83,15 +84,16 @@ I then searched for the complete event associated with this account:
 
 The result was:
 
+![Suspicious logon](../assets/first-login/suspicious-event.png)
 
 This was the suspicious logon.
 
 ## Tools Used
 - Kali Linux
 - Linux Terminal
-- grep
-- sort
-- uniq
+- `grep`
+- `sort`
+- `uniq`
 
 ## Lessons Learned
 
