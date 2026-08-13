@@ -60,6 +60,7 @@ The goal of these writeups is educational. Every writeup explains the thought pr
 
 ### 📦 Miscellaneous
 - 📄 [Stringed Along](miscellaneous/stringed-along.md)
+- 📄 [Vault Archaeology](miscellaneous/vault-archaeology.md)
 
 ## 📜 Disclaimer
 
